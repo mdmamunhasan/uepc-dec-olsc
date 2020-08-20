@@ -1,10 +1,10 @@
+**Course:** CSE 6581 (Soft Error Tolerance) Khulna University of Engineering and Technology
+
 # Introduction
 
-An IEEE paper implemented for Soft Error Tolerance MSc Course in Khulna University of Engineering and Technology.
+Implemented for all possible combination of data-word for both single and double error detection and correction.
 
-**IEEE Paper Name:** Unequal-Error-Protection Error Correction Codes for the Embedded Memories in Digital Signal Processors 
-
-Implemented for all possible combination of data-word for both single and double error
+**IEEE Journal Name:** Unequal-Error-Protection Error Correction Codes for the Embedded Memories in Digital Signal Processors 
 
 # Getting Stated
 
@@ -28,9 +28,12 @@ Install Python3 and PIP and then within project root directory
 
 ## Output
 
-    DataWord Size: 32bit
-    Single Error Corrected: 32, Failed: 0, Percentage Corrected: 100.0, Average Time: 0.09372830390930176 ms
-    Double Error Corrected: 360, Failed: 168, Percentage Corrected: 68.18181818181819, Average Time: 0.15723795601815888 ms
+**DataWord Size:** 32bit
+
+| Error Type | Corrected | Failed | Percentage Corrected | Average Time |
+| ---------- | --------- | ------ | -------------------- | ------------ |
+| **Single Error** | 32 | 0 | 100.0 | 0.09372830390930176 ms |
+| **Double Error** | 360 | 168 | 0.6818181818181818 | 0.15723795601815888 ms |
 
 # Reference
 
