@@ -276,16 +276,6 @@ if __name__ == "__main__":
     end_time = time.time()
     encode_time = end_time - start_time
 
-    # Decoder
-    # data_flip = np.array(list('1010101001010101'), dtype=int)
-    # data_e_flip = np.array(list('1010100101010101'), dtype=int)
-    # c_out_flip = get_check_bits(data_flip, data_e_flip)
-    #
-    # d_ols_c, de_sec_ded_c = correct_error(data_flip, data_e_flip, c_out, c_out_flip)
-    #
-    # print("d_ols_i:", data_orig, "\nd_ols_f:", data_flip, "\nd_ols_c:", d_ols_c)
-    # print("de_sec_ded_i:", data_e_orig, "\nde_sec_ded_f:", data_e_flip, "\nde_sec_ded_c:", de_sec_ded_c)
-
     # Single Error Inject and Decode
     get_single_error_correct_stats(data_word, c_out)
 

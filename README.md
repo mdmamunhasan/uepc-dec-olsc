@@ -10,8 +10,10 @@ Implemented for all possible combinations of data-word for both single and doubl
 
 ## Setup Environment
 
-Install Python3 and PIP and then within project root directory
- 
+Install Python3 and PIP and then run following commands
+
+    git clone https://github.com/mdmamunhasan/uepc-dec-olsc.git
+    cd uepc-dec-olsc
     pip install -r requirements.txt
     
 ## Execute
@@ -32,8 +34,10 @@ Install Python3 and PIP and then within project root directory
 
 | Error Type | Corrected | Failed | Percentage Corrected | Average Time |
 | ---------- | --------- | ------ | -------------------- | ------------ |
-| **Single Error** | 32 | 0 | 100.0 | 0.09372830390930176 ms |
-| **Double Error** | 360 | 168 | 0.6818181818181818 | 0.15723795601815888 ms |
+| **Single Error** | 32 | 0 | 100.0 | 0.1250132918357849 ms |
+| **Double Error** | 360 | 168 | 0.6818181818181818 | 0.16098672693425958 ms |
+
+![Console Output](ouput.png)
 
 # Reference
 
