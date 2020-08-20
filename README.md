@@ -10,7 +10,7 @@ Implemented for all possible combination of data-word for both single and double
 
 ## Setup Environment
 
-Install Python and PIP and then within project root directory
+Install Python3 and PIP and then within project root directory
  
     pip install -r requirements.txt
     
