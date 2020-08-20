@@ -2,7 +2,7 @@
 
 # Introduction
 
-Implemented for all possible combination of data-word for both single and double error detection and correction.
+Implemented for all possible combinations of data-word for both single and double error detection and correction.
 
 **IEEE Journal Name:** Unequal-Error-Protection Error Correction Codes for the Embedded Memories in Digital Signal Processors 
 
